@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+}
+.header_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 43px 106px;
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+background-color: white;
+}
+.header_description-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+.header_description-wrapper>div{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.header_description-wrapper>div>p{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.05px;
+text-align: left;
+color: #BCAAAA;
+transition: all 1s;
+}
+.header_description-wrapper>div:hover>p{
+    color: #EF400F;
+    transition: all 1s;
+}
+.header_button-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+.header_button-wrapper>button{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29.05px;
+text-align: left;
+color: #EF400F;
+padding: 16px 17px 18px 22px;
+border-radius: 20px;
+border: 2px solid #EF400F;
+background-color: white;
+transition: all 1s;
+}
+.header_button-wrapper>button:hover{
+    background-color: #EF400F;
+    color: white;
+    transition: all 1s;
+}
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 67px 106px 0px 106px;
+}
+.header_card-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header_card-1>p{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 600;
+line-height: 48.41px;
+color: #0D0C5C;
+}
+.header_card-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header_card-2>p{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 38.73px;
+color: #EF400F;
+}
+main{
+    padding: 117px 106px 39px 97px;
+}
+.main_container{
+    display: flex;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+.main_container>div{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+    border-radius: 30px;
+    position: relative;
+}
+.card-1>div>img{
+    position: absolute;
+    top: 44px;
+    left: 54px;
+}
+.card-2>div>img{
+position: absolute;
+top: 26px;
+left: 86px;
+}
+.card-3>div>img{
+position: absolute;
+top: 27px;
+left: 84px;
+}
+.card-4>div>img{
+position: absolute;
+top: 7px;
+left:62px ;
+}
+.card-5>div>img{
+position: absolute;
+top: 9px;
+left: 78px;
+}
+.card-6>div>img{
+position: absolute;
+top: 15px;
+left: 53px;
+}
+.card-7>div>img{
+    position: absolute;
+top: 4px;
+left: 74px;
+}
+.card-8>div>img{
+    position: absolute;
+top: 10px;
+left: 65px;
+} 
+.card-9>div>img{
+    position: absolute;
+top: 18px;
+left: 91px;
+}
+.card-10>div>img{
+    position: absolute;
+top: 17px;
+left: 81px;
+}
+.card-11>div>img{
+    position: absolute;
+top: -5px;
+left: 69px;
+}
+.card-12>div>img{
+position: absolute;
+top: 11px;
+left: 84px;
+}
+.card-1{
+    padding: 162px 90px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-2{
+    padding: 162px 73px 24px 93px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-3{
+    padding: 162px 90px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-4{
+    padding: 162px 70px 24px 87px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-5{
+    padding: 162px 90px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-6{
+    padding: 162px 90px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-7{
+    padding: 162px 90px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-8{
+    padding: 162px 84px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-9{
+    padding: 162px 90px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-10{
+    padding: 162px 7px 24px 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-11{
+    padding: 162px 85px 24px 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.card-12{
+    padding: 162px 74px 24px 83px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+}
+.main_container>div>div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card-1>div>h4,
+.card-2>div>h4,
+.card-3>div>h4,
+.card-5>div>h4,
+.card-6>div>h4,
+.card-7>div>h4,
+.card-8>div>h4,
+.card-9>div>h4,
+.card-10>div>h4,
+.card-11>div>h4,
+.card-12>div>h4{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 18.15px;
+text-align: center;
+}
+.card-4>div>h4{
+    font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 18.15px;
+text-align: center;
+color: #00000054;
+}
+.main_container>div>div>div{
+display: flex;
+gap: 10px;
+}
+.card-1>div>div>p,
+.card-2>div>div>p,
+.card-3>div>div>p,
+.card-5>div>div>p,
+.card-6>div>div>p,
+.card-7>div>div>p,
+.card-8>div>div>p,
+.card-9>div>div>p,
+.card-10>div>div>p,
+.card-11>div>div>p,
+.card-12>div>div>p{
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: #000000AB;
+}
+.main_container>div>div>div{
+width: 150px;
+}
+.card-4>div>div>p{
+font-family: Inter;
+font-size: 15px;
+font-weight: 500;
+line-height: 19.36px;
+text-align: center;
+color: #0000004D;
+}
+.main_container>div>div>p{
+font-family: Inter;
+font-size: 11px;
+font-weight: 300;
+line-height: 15.73px;
+text-align: center;
+color: #000000BF;
+}
+.card-10>div>div{
+margin: 0px 83px 0px 83px;
+}
+.footer_navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+padding: 17px 100px;
+}
+.footer_navbar>div>p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.36px;
+text-align: left;
+}
+.footer_navbar>div>a{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.36px;
+text-align: left;
+color: black;
+}
