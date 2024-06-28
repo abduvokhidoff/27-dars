@@ -5,6 +5,12 @@
 }
 body{
     background-color: #F5F5F5;
+    position: relative;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 .header_navbar{
     display: flex;
@@ -64,7 +70,7 @@ transition: all 1s;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 67px 106px 0px 106px;
+    padding: 0px 0px 117px 0px;
 }
 .header_card-1{
     display: flex;
